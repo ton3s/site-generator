@@ -16,7 +16,6 @@ class HTMLNode:
 			props_html += f' {prop}="{self.props[prop]}"'
 		return props_html
 
-	
 	def __repr__(self):
 		return f"HTMLNode({self.tag}, {self.value}, {self.children}, {self.props})"
 	
